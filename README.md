@@ -1,4 +1,4 @@
-# Multi-Agent Customer Retention System 🇱🇰
+# Multi-Agent Customer Retention System
 
 > An Autonomous AI System that prevents customer churn by correlating structured billing data with unstructured complaint logs to negotiate retention offers in real-time.
 
