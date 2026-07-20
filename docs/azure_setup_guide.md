@@ -147,16 +147,6 @@ echo "Key Vault: $KEY_VAULT"
 echo "Container Registry: $ACR_NAME"
 ```
 
-## 9. 💰 Managing Your Student Credits
-Since you are on an Azure for Students subscription ($100 credit), this guide has been heavily optimized to be as cheap as possible:
-- **Cosmos DB** uses Serverless (you only pay per query, almost $0).
-- **Azure SQL** uses the Basic tier (~$5/month flat rate).
-- **Container Registry** uses the Basic tier (~$5/month).
-- **Container Apps** uses the Consumption tier (first 2 million requests are free).
-- **App Insights / Blob / Key Vault** are practically free for small workloads.
-
-**Total Expected Cost:** ~$10 per month.
-
 ### 🛑 How to stop all billing
 When you are completely done with this project and want to ensure you don't use up any more of your $100 credit, run this single command to delete everything we just created:
 ```bash
